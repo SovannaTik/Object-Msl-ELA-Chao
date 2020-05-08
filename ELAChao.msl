@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------
+//  HEMMIS - Ghent University, BIOMATH - Université Laval, modelEAU
+//  Implementation: Hans Vangheluwe, Peter Vanrolleghem, Henk Vanhooren, 
+//                  Jurgen Meirlaen,Frederik Decouttere, Youri Amerlinck
+//                  Frederik De Laender, Ludiwine Clouzot.
+//  Description: MSL-USER/ELAChao
+// -----------------------------------------------------------------------
+
+#ifndef ELACHAO
+#define ELACHAO
+
+#include "generic.msl"
+
+#include "ELACHAO.general.msl"
+#include "ELACHAO.definitions.msl"
+
+#include "ELACHAO.base.msl"
+#include "ELACHAO.quantity.msl"
+#include "ELACHAO.base.controllers.msl"
+
+#include "Object LIMITATIONS.msl"
+#include "Object DD.msl"
+#include "Object PD.msl"
+#include "Object SD.msl"
+#include "Object NITROGEN.msl"
+#include "Object PHOSPHORUS.msl"
+#include "Object EXTINCTION.msl"
+
+#include "Object ALGAE.msl"
+#include "Object CHAOBORUS.msl"
+#include "Object GRAZER.msl"
+#include "Object INSECT.msl"
+#include "Object PRED.msl"
+
+#include "Object COLLECTOR.msl"
+#include "Object COLLECT_FISH.msl"
+#include "Object COLLECT_INSECT.msl"
+
+#endif 
+
+// *****************************
